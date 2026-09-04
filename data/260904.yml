@@ -7,7 +7,7 @@ about:
   head: 903a8b6
   archived: false
   latestVersion: v2.13.0
-  collectedAt: 2026-09-04T19:17:55Z
+  collectedAt: 2026-09-04T21:20:07Z
 timeline:
   created: 2017-03-25
   lastCommit: 2026-08-15
@@ -83,6 +83,39 @@ total:
   openIssue: 32
   commit: 938
 ---
+path: /home/runner/.x-repo/github.com/Atoptool/atop
+collectedAt: 2026-09-04T21:20:08Z
+loc:
+  C:
+    code: 30992
+    comments: 7410
+    blanks: 7142
+    files: 28
+  CHeader:
+    code: 7020
+    comments: 1082
+    blanks: 1321
+    files: 49
+  Makefile:
+    code: 179
+    comments: 21
+    blanks: 26
+    files: 1
+  Sh:
+    code: 65
+    comments: 15
+    blanks: 15
+    files: 3
+  Markdown:
+    code: 0
+    comments: 61
+    blanks: 23
+    files: 1
+total:
+  code: 38256
+  comments: 8589
+  blanks: 8527
+  files: 82
 ---
 date: "2026-08-24"
 repo:
