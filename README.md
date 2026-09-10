@@ -22,7 +22,12 @@ x install atop
 - **Latest**: `v2.13.0` (2026-07-19)
 - **Last commit**: 2026-08-15
 - **Assets in release**: 1
-- **Published**: 2026-07-19T09:29:23Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [atop-2.13.0.tar.gz](https://github.com/Atoptool/atop/releases/download/v2.13.0/atop-2.13.0.tar.gz) | 346.3 KiB | `native/unknown` |
 
 ## Popularity
 
@@ -67,8 +72,8 @@ Lowest-scoring checks:
 Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `atop` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/atop.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/atop.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:55:01Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:47:21Z._

@@ -4,7 +4,7 @@
 
 System and process monitor for Linux
 
-![atop](https://repo.x-cmd.io/atop.svg)
+![atop](https://repo.x-cmd.io/atop.svg?lang=zh)
 
 ## 安装
 
@@ -22,7 +22,12 @@ x install atop
 - **最新版本**: `v2.13.0` (2026-07-19)
 - **最近提交**: 2026-08-15
 - **Release 含资产**: 1 个
-- **发布时间**: 2026-07-19T09:29:23Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [atop-2.13.0.tar.gz](https://github.com/Atoptool/atop/releases/download/v2.13.0/atop-2.13.0.tar.gz) | 346.3 KiB | `native/unknown` |
 
 ## 流行度
 
@@ -71,4 +76,4 @@ atop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:55:02Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:47:22Z._
