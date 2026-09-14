@@ -14,11 +14,11 @@ x install atop
 
 ## Code insight
 
-Total: **38,297** lines of code across **82** files in the top 5 languages.
+Total: **38,299** lines of code across **82** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 31,033 | 7,410 | 7,149 | 28 |
+| C | 31,035 | 7,413 | 7,150 | 28 |
 | CHeader | 7,020 | 1,082 | 1,321 | 49 |
 | Makefile | 179 | 21 | 26 | 1 |
 | Sh | 65 | 15 | 15 | 3 |
@@ -42,52 +42,33 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.13.0` (2026-07-19)
-- **Last commit**: 2026-09-10
+- **Last commit**: 2026-09-13
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 1,061 · **Forks**: 130 · **Open issues**: 197 · **Contributors**: 34
+- **Stars**: 1,061 · **Forks**: 130 · **Open issues**: 197 · **Contributors**: 35
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 130 · **Open PRs**: 31 · **Closed issues**: 165 · **Open issues**: 32 · **Commits**: 939
+- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 30 · **Closed issues**: 166 · **Open issues**: 31 · **Commits**: 941
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 0 | 1 | 0 | 2 | 1 |
-| last60d | 2026-07-15 | 1 | 2 | 1 | 1 | 3 | 4 |
-| 90d | 2026-06-15 | 1 | 12 | 11 | 1 | 3 | 22 |
-| last180d | 2026-03-17 | 1 | 14 | 14 | 5 | 4 | 41 |
-| 360d | 2025-09-18 | 2 | 20 | 17 | 11 | 5 | 66 |
-| last720d | 2024-09-23 | 4 | 27 | 18 | 31 | 8 | 152 |
+| 30d | 2026-08-15 | 0 | 1 | 0 | 1 | 1 | 2 |
+| last60d | 2026-07-16 | 1 | 3 | 0 | 2 | 2 | 5 |
+| 90d | 2026-06-16 | 1 | 13 | 10 | 2 | 2 | 23 |
+| last180d | 2026-03-18 | 1 | 15 | 13 | 6 | 3 | 42 |
+| 360d | 2025-09-19 | 2 | 21 | 16 | 12 | 4 | 67 |
+| last720d | 2024-09-24 | 4 | 28 | 17 | 32 | 7 | 154 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [atop-2.13.0.tar.gz](https://github.com/Atoptool/atop/releases/download/v2.13.0/atop-2.13.0.tar.gz) | 346.3 KiB | `native/unknown` |
-
-## Distribution status
-
-Reported by **130** distros on [repology.org](https://repology.org/project/atop). **27** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.13.0` | ✅ latest |
-| Debian 14 | `2.13.0` | ✅ latest |
-| Debian 13 | `2.11.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.12.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.10.0` | ⚠️ outdated |
-| Arch | `2.13.0` | ✅ latest |
-| Homebrew | `2.13.0` | ✅ latest |
-| Fedora rawhide | `2.13.0` | ✅ latest |
-| Nix unstable | `2.13.0` | ✅ latest |
-| Void | `2.12.1` | ⚠️ outdated |
-| Alpine edge | `2.12.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.13.0` | ✅ latest |
 
 ## Improve this data
 
@@ -98,4 +79,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:04:41Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:21:20Z._
