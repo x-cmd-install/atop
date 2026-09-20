@@ -4,7 +4,7 @@
 
 System and process monitor for Linux
 
-![atop](https://repo.x-cmd.io/atop.svg)
+[![x-cmd/install — atop Code Quality Monitoring Repo Card](https://repo.x-cmd.io/atop.svg)](https://x-cmd.com/install/atop)
 
 ## Install
 
@@ -14,12 +14,12 @@ x install atop
 
 ## Code insight
 
-Total: **38,312** lines of code across **82** files in the top 5 languages.
+Total: **38,340** lines of code across **82** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 31,047 | 7,412 | 7,152 | 28 |
-| CHeader | 7,021 | 1,082 | 1,321 | 49 |
+| C | 31,076 | 7,432 | 7,236 | 28 |
+| CHeader | 7,020 | 1,082 | 1,321 | 49 |
 | Makefile | 179 | 21 | 26 | 1 |
 | Sh | 65 | 15 | 15 | 3 |
 | Markdown | 0 | 61 | 23 | 1 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.13.0` (2026-07-19)
-- **Last commit**: 2026-09-15
+- **Last commit**: 2026-09-18
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 1,063 · **Forks**: 130 · **Open issues**: 197 · **Contributors**: 35
+- **Stars**: 1,065 · **Forks**: 130 · **Open issues**: 197 · **Contributors**: 35
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 30 · **Closed issues**: 167 · **Open issues**: 30 · **Commits**: 942
+- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 30 · **Closed issues**: 167 · **Open issues**: 30 · **Commits**: 943
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 0 | 1 | 0 | 3 |
-| last60d | 2026-07-20 | 0 | 3 | 0 | 2 | 1 | 6 |
-| 90d | 2026-06-20 | 1 | 13 | 3 | 3 | 1 | 24 |
-| last180d | 2026-03-22 | 1 | 15 | 13 | 7 | 2 | 43 |
-| 360d | 2025-09-23 | 2 | 21 | 16 | 13 | 3 | 68 |
-| last720d | 2024-09-28 | 4 | 28 | 17 | 33 | 6 | 155 |
+| 30d | 2026-08-21 | 0 | 1 | 0 | 1 | 0 | 4 |
+| last60d | 2026-07-22 | 0 | 3 | 0 | 2 | 1 | 7 |
+| 90d | 2026-06-22 | 1 | 13 | 3 | 3 | 1 | 25 |
+| last180d | 2026-03-24 | 1 | 15 | 13 | 7 | 2 | 39 |
+| 360d | 2025-09-25 | 1 | 21 | 16 | 13 | 3 | 69 |
+| last720d | 2024-09-30 | 4 | 28 | 17 | 33 | 6 | 152 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:59:34Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:12:39Z._
