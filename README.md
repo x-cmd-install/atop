@@ -4,7 +4,7 @@
 
 System and process monitor for Linux
 
-[![x-cmd/install — atop Code Quality Monitoring Repo Card](https://repo.x-cmd.io/atop.svg)](https://x-cmd.com/install/atop)
+[![x-cmd/install — atop Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/atop.svg)](https://x-cmd.com/install/atop)
 
 ## Install
 
@@ -26,13 +26,13 @@ Total: **38,383** lines of code across **82** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.7 / 10**
+Overall score: **3.6 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (4/10) — Found 13/27 approved changesets -- score normalized to 4
 - **Dangerous-Workflow** (-1/10) — no workflows found
 - **Token-Permissions** (-1/10) — No tokens found
-- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 1 | 0 | 1 | 0 | 6 |
-| last60d | 2026-07-24 | 0 | 3 | 0 | 2 | 1 | 9 |
-| 90d | 2026-06-24 | 1 | 13 | 3 | 3 | 1 | 27 |
-| last180d | 2026-03-26 | 1 | 14 | 13 | 7 | 2 | 41 |
-| 360d | 2025-09-27 | 1 | 21 | 16 | 13 | 3 | 71 |
-| last720d | 2024-10-02 | 4 | 28 | 17 | 33 | 6 | 154 |
+| 30d | 2026-08-24 | 0 | 1 | 0 | 1 | 0 | 6 |
+| last60d | 2026-07-25 | 0 | 3 | 0 | 2 | 1 | 9 |
+| 90d | 2026-06-25 | 1 | 13 | 3 | 3 | 1 | 27 |
+| last180d | 2026-03-27 | 1 | 14 | 13 | 7 | 2 | 41 |
+| 360d | 2025-09-28 | 1 | 21 | 16 | 13 | 3 | 71 |
+| last720d | 2024-10-03 | 4 | 28 | 17 | 33 | 6 | 154 |
 
 ## Release assets
 
@@ -79,4 +79,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:08:29Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T05:15:05Z._
