@@ -57,18 +57,37 @@ x install atop
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 0 | 1 | 1 | 0 | 3 |
-| last60d | 2026-08-23 | 0 | 1 | 1 | 2 | 0 | 10 |
-| 90d | 2026-07-24 | 0 | 3 | 1 | 4 | 0 | 13 |
-| last180d | 2026-04-25 | 1 | 14 | 13 | 7 | 1 | 42 |
-| 360d | 2025-10-27 | 1 | 21 | 17 | 13 | 1 | 72 |
-| last720d | 2024-11-01 | 4 | 28 | 18 | 34 | 5 | 155 |
+| 30d | 2026-09-23 | 0 | 0 | 1 | 1 | 0 | 3 |
+| last60d | 2026-08-24 | 0 | 1 | 1 | 2 | 0 | 10 |
+| 90d | 2026-07-25 | 0 | 3 | 1 | 4 | 0 | 13 |
+| last180d | 2026-04-26 | 1 | 14 | 13 | 7 | 1 | 42 |
+| 360d | 2025-10-28 | 1 | 21 | 17 | 13 | 1 | 72 |
+| last720d | 2024-11-02 | 4 | 28 | 18 | 34 | 5 | 155 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [atop-2.13.0.tar.gz](https://github.com/Atoptool/atop/releases/download/v2.13.0/atop-2.13.0.tar.gz) | 346.3 KiB | `native/unknown` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/atop) 上共有 **131** 个发行版报告此项目。**33** 个 ✅ 已是最新上游版本，**87** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.13.0` | ✅ latest |
+| Debian 14 | `2.13.0` | ✅ latest |
+| Debian 13 | `2.11.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.12.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.10.0` | ⚠️ outdated |
+| Arch | `2.13.0` | ✅ latest |
+| Homebrew | `2.13.0` | ✅ latest |
+| Fedora rawhide | `2.13.0` | ✅ latest |
+| Nix unstable | `2.13.0` | ✅ latest |
+| Void | `2.12.1` | ⚠️ outdated |
+| Alpine edge | `2.12.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `2.13.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -79,4 +98,4 @@ atop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:53:34Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:57:07Z._
