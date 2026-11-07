@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,081 · **Forks**: 131 · **Open issues**: 197 · **Contributors**: 35
+- **Stars**: 1,082 · **Forks**: 131 · **Open issues**: 197 · **Contributors**: 35
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 1 | 0 | 0 | 5 |
-| last60d | 2026-09-07 | 0 | 0 | 2 | 1 | 0 | 11 |
-| 90d | 2026-08-08 | 0 | 3 | 2 | 3 | 0 | 14 |
-| last180d | 2026-05-10 | 1 | 13 | 14 | 7 | 1 | 40 |
-| 360d | 2025-11-11 | 1 | 21 | 18 | 13 | 1 | 74 |
-| last720d | 2024-11-16 | 4 | 28 | 19 | 33 | 4 | 157 |
+| 30d | 2026-10-08 | 0 | 0 | 1 | 0 | 0 | 5 |
+| last60d | 2026-09-08 | 0 | 0 | 2 | 1 | 0 | 11 |
+| 90d | 2026-08-09 | 0 | 2 | 2 | 3 | 0 | 14 |
+| last180d | 2026-05-11 | 1 | 13 | 14 | 7 | 1 | 40 |
+| 360d | 2025-11-12 | 1 | 21 | 18 | 13 | 1 | 74 |
+| last720d | 2024-11-17 | 4 | 28 | 19 | 33 | 4 | 157 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **131** distros on [repology.org](https://repology.org/project/atop). **32** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
+Reported by **132** distros on [repology.org](https://repology.org/project/atop). **35** are ✅ on the latest upstream release, **86** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:51:42Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:12:06Z._
