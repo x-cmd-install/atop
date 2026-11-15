@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,084 · **Forks**: 131 · **Open issues**: 197 · **Contributors**: 35
+- **Stars**: 1,085 · **Forks**: 131 · **Open issues**: 197 · **Contributors**: 35
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 0 | 1 | 0 | 0 | 2 |
-| last60d | 2026-09-15 | 0 | 0 | 2 | 1 | 0 | 9 |
-| 90d | 2026-08-16 | 0 | 1 | 2 | 3 | 0 | 12 |
-| last180d | 2026-05-18 | 1 | 13 | 13 | 7 | 0 | 40 |
-| 360d | 2025-11-19 | 1 | 21 | 18 | 13 | 1 | 74 |
-| last720d | 2024-11-24 | 4 | 28 | 19 | 33 | 4 | 152 |
+| 30d | 2026-10-16 | 0 | 0 | 1 | 0 | 0 | 2 |
+| last60d | 2026-09-16 | 0 | 0 | 2 | 1 | 0 | 6 |
+| 90d | 2026-08-17 | 0 | 1 | 2 | 3 | 0 | 12 |
+| last180d | 2026-05-19 | 1 | 13 | 13 | 7 | 0 | 40 |
+| 360d | 2025-11-20 | 1 | 21 | 18 | 13 | 1 | 74 |
+| last720d | 2024-11-25 | 4 | 28 | 19 | 33 | 4 | 152 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **131** distros on [repology.org](https://repology.org/project/atop). **35** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
+Reported by **131** distros on [repology.org](https://repology.org/project/atop). **36** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -82,10 +82,10 @@ Reported by **131** distros on [repology.org](https://repology.org/project/atop)
 | Ubuntu 26.04 LTS | `2.12.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.10.0` | ⚠️ outdated |
 | Arch | `2.13.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `2.13.0` | ✅ latest |
 | Fedora rawhide | `2.13.0` | ✅ latest |
 | Nix unstable | `2.13.0` | ✅ latest |
-| Void | `2.12.1` | ⚠️ outdated |
+| Void | `2.13.0` | ✅ latest |
 | Alpine edge | `2.12.1` | ⚠️ outdated |
 | openSUSE Tumbleweed | `2.13.0` | ✅ latest |
 
@@ -98,4 +98,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:31:00Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:43:33Z._
