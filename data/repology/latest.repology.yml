@@ -1,162 +1,12 @@
-- repo: kali_rolling
-  subrepo: main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: nix_stable_25_05
-  srcname: atop
-  visiblename: atop
-  version: 2.11.1
-  origversion: null
-  status: outdated
-  summary: Console system performance monitor
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_25_11
-  srcname: atop
-  visiblename: atop
-  version: 2.12.1
-  origversion: null
-  status: outdated
-  summary: Console system performance monitor
-  maintainers:
-    - 7c6f434c@mail.ru
-  licenses:
-    - GPL-2.0-or-later
-- repo: pld
-  srcname: atop
-  visiblename: atop
-  version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
-- repo: ptxdist
-  srcname: atop
-  visiblename: atop
-  version: 2.12.1
-  origversion: null
-  status: outdated
-  licenses:
-    - GPL-2.0-or-later
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.4.0
-  origversion: 2.4.0-3
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: debian_11
+  subrepo: bullseye-security/main
   srcname: atop
   binnames:
     - atop
   visiblename: atop
   version: 2.6.0
-  origversion: 2.6.0-2
+  origversion: 2.6.0-2+deb11u1
   status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: homebrew
-  srcname: atop
-  visiblename: atop
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Advanced system and process monitor for Linux using process events
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.11.1
-  origversion: 2.11.1-3
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: wikidata
-  srcname: Q4034550
-  visiblename: Atop
-  version: 2.13.0
-  origversion: null
-  status: newest
-  summary: free software
-  licenses:
-    - GNU General Public License
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.8.1
-  origversion: 2.8.1-1+deb12u1
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: raspbian_stable
-  subrepo: main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.11.1
-  origversion: 2.11.1-3
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: raspbian_testing
-  subrepo: main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
   maintainers:
     - atop@packages.debian.org
     - mh+debian-packages@zugschlus.de
@@ -227,20 +77,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.12.1
-  origversion: 2.12.1-1
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - universe/admin
 - repo: alpine_3_18
   subrepo: main
   srcname: atop
@@ -624,6 +460,17 @@
   summary: ASCII full-screen performance monitor
   licenses:
     - GPL-2
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: atop
+  binname: atop
+  visiblename: atop
+  version: 2.13.0
+  origversion: 2.13.0-1
+  status: newest
+  summary: A system and process level monitor
+  licenses:
+    - GPL-2.0-or-later
 - repo: debian_11
   subrepo: bullseye/main
   srcname: atop
@@ -632,20 +479,6 @@
   visiblename: atop
   version: 2.6.0
   origversion: 2.6.0-2
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.6.0
-  origversion: 2.6.0-2+deb11u1
   status: outdated
   maintainers:
     - atop@packages.debian.org
@@ -762,6 +595,20 @@
     - mh+debian-packages@zugschlus.de
   categories:
     - admin
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.13.0
+  origversion: 2.13.0-1
+  status: newest
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
 - repo: epel_7
   srcname: atop
   visiblename: atop
@@ -827,22 +674,6 @@
   categories:
     - sys-process
 - repo: fedora_39
-  subrepo: release
-  srcname: atop
-  binnames:
-    - atop
-    - atop-debuginfo
-    - atop-debugsource
-  visiblename: atop
-  version: 2.9.0
-  origversion: 2.9.0-2.fc39
-  status: legacy
-  summary: An advanced interactive monitor to view the load on system and process level
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: updates
   srcname: atop
   binnames:
@@ -853,6 +684,22 @@
   version: 2.10.0
   origversion: 2.10.0-1.fc39
   status: outdated
+  summary: An advanced interactive monitor to view the load on system and process level
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: atop
+  binnames:
+    - atop
+    - atop-debuginfo
+    - atop-debugsource
+  visiblename: atop
+  version: 2.9.0
+  origversion: 2.9.0-2.fc39
+  status: legacy
   summary: An advanced interactive monitor to view the load on system and process level
   licenses:
     - GPL-2.0-or-later
@@ -932,6 +779,17 @@
     - GPL-2.0-or-later
   categories:
     - Unspecified
+- repo: nix_stable_24_05
+  srcname: atop
+  visiblename: atop
+  version: 2.8.1
+  origversion: null
+  status: outdated
+  summary: Console system performance monitor
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-2.0-or-later
 - repo: fedora_42
   subrepo: release
   srcname: atop
@@ -961,20 +819,6 @@
   categories:
     - Unspecified
 - repo: fedora_44
-  subrepo: release
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.12.1
-  origversion: 2.12.1-3.fc44
-  status: legacy
-  summary: An advanced interactive monitor to view the load on system and process level
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_44
   subrepo: updates
   srcname: atop
   binnames:
@@ -983,6 +827,20 @@
   version: 2.13.0
   origversion: 2.13.0-1.fc44
   status: newest
+  summary: An advanced interactive monitor to view the load on system and process level
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.12.1
+  origversion: 2.12.1-3.fc44
+  status: legacy
   summary: An advanced interactive monitor to view the load on system and process level
   licenses:
     - GPL-2.0-or-later
@@ -1043,6 +901,27 @@
   origversion: null
   status: newest
   summary: Advanced system and process monitor for Linux using process events
+- repo: homebrew
+  srcname: atop
+  visiblename: atop
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Advanced system and process monitor for Linux using process events
+- repo: kali_rolling
+  subrepo: main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.13.0
+  origversion: 2.13.0-1
+  status: newest
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
 - repo: liguros_stable
   srcname: sys-process/atop
   visiblename: sys-process/atop
@@ -1190,21 +1069,10 @@
   summary: A system and process level monitor
   licenses:
     - GPL-2.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: atop
-  binname: atop
-  visiblename: atop
-  version: 2.13.0
-  origversion: 2.13.0-1
-  status: newest
-  summary: A system and process level monitor
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_stable_24_05
+- repo: nix_stable_24_11
   srcname: atop
   visiblename: atop
-  version: 2.8.1
+  version: 2.11.1
   origversion: null
   status: outdated
   summary: Console system performance monitor
@@ -1212,10 +1080,21 @@
     - 7c6f434c@mail.ru
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_24_11
+- repo: nix_stable_25_05
   srcname: atop
   visiblename: atop
   version: 2.11.1
+  origversion: null
+  status: outdated
+  summary: Console system performance monitor
+  maintainers:
+    - 7c6f434c@mail.ru
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: atop
+  visiblename: atop
+  version: 2.12.1
   origversion: null
   status: outdated
   summary: Console system performance monitor
@@ -1306,24 +1185,24 @@
   categories:
     - Unspecified
 - repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: atop
-  visiblename: atop
-  version: 2.8.1
-  origversion: 2.8.1-bp156.2.8
-  status: legacy
-  summary: Monitor for System Resources and Process Activity
-  licenses:
-    - GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: opensuse_leap_15_6
   subrepo: updates/backports
   srcname: atop
   visiblename: atop
   version: 2.11.1
   origversion: 2.11.1-bp156.3.3.1
   status: outdated
+  summary: Monitor for System Resources and Process Activity
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: atop
+  visiblename: atop
+  version: 2.8.1
+  origversion: 2.8.1-bp156.2.8
+  status: legacy
   summary: Monitor for System Resources and Process Activity
   licenses:
     - GPL-2.0-only
@@ -1391,20 +1270,6 @@
   licenses:
     - GPL-2.0-or-later
 - repo: pardus_21
-  subrepo: main
-  srcname: atop
-  binnames:
-    - atop
-  visiblename: atop
-  version: 2.6.0
-  origversion: 2.6.0-2
-  status: outdated
-  maintainers:
-    - atop@packages.debian.org
-    - mh+debian-packages@zugschlus.de
-  categories:
-    - admin
-- repo: pardus_21
   subrepo: updates/main
   srcname: atop
   binnames:
@@ -1418,8 +1283,22 @@
     - mh+debian-packages@zugschlus.de
   categories:
     - admin
+- repo: pardus_21
+  subrepo: main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.6.0
+  origversion: 2.6.0-2
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: atop
   binnames:
     - atop
@@ -1433,7 +1312,7 @@
   categories:
     - admin
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: atop
   binnames:
     - atop
@@ -1455,6 +1334,104 @@
   summary: AT Computing System and Process Monitor
   categories:
     - Text tools
+- repo: pld
+  srcname: atop
+  visiblename: atop
+  version: 2.13.0
+  origversion: 2.13.0-1
+  status: newest
+- repo: ptxdist
+  srcname: atop
+  visiblename: atop
+  version: 2.12.1
+  origversion: null
+  status: outdated
+  licenses:
+    - GPL-2.0-or-later
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.4.0
+  origversion: 2.4.0-3
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.6.0
+  origversion: 2.6.0-2
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.11.1
+  origversion: 2.11.1-3
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.8.1
+  origversion: 2.8.1-1+deb12u1
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.11.1
+  origversion: 2.11.1-3
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
+- repo: raspbian_testing
+  subrepo: main
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.13.0
+  origversion: 2.13.0-1
+  status: newest
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - admin
 - repo: rosa_2019_1
   subrepo: main/release
   srcname: atop
@@ -1656,6 +1633,20 @@
     - mh+debian-packages@zugschlus.de
   categories:
     - universe/admin
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: atop
+  binnames:
+    - atop
+  visiblename: atop
+  version: 2.12.1
+  origversion: 2.12.1-1
+  status: outdated
+  maintainers:
+    - atop@packages.debian.org
+    - mh+debian-packages@zugschlus.de
+  categories:
+    - universe/admin
 - repo: ubuntu_26_10
   subrepo: stonking/universe
   srcname: atop
@@ -1689,11 +1680,20 @@
   srcname: atop
   binname: atop
   visiblename: atop
-  version: 2.12.1
-  origversion: 2.12.1_1
-  status: outdated
+  version: 2.13.0
+  origversion: 2.13.0_1
+  status: newest
   summary: System and process level monitor
   maintainers:
     - orphan@voidlinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: wikidata
+  srcname: Q4034550
+  visiblename: Atop
+  version: 2.13.0
+  origversion: null
+  status: newest
+  summary: free software
+  licenses:
+    - GNU General Public License
