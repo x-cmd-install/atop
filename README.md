@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,087 · **Forks**: 131 · **Open issues**: 197 · **Contributors**: 35
+- **Stars**: 1,088 · **Forks**: 132 · **Open issues**: 198 · **Contributors**: 35
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 32 · **Closed issues**: 168 · **Open issues**: 29 · **Commits**: 951
+- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 32 · **Closed issues**: 168 · **Open issues**: 30 · **Commits**: 951
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 1 | 0 | 0 | 2 |
-| last60d | 2026-09-17 | 0 | 0 | 2 | 1 | 0 | 6 |
-| 90d | 2026-08-18 | 0 | 1 | 2 | 3 | 0 | 12 |
-| last180d | 2026-05-20 | 1 | 13 | 13 | 7 | 0 | 40 |
-| 360d | 2025-11-21 | 1 | 21 | 18 | 13 | 1 | 74 |
-| last720d | 2024-11-26 | 4 | 28 | 19 | 33 | 4 | 152 |
+| 30d | 2026-10-18 | 0 | 0 | 1 | 0 | 1 | 2 |
+| last60d | 2026-09-18 | 0 | 0 | 2 | 1 | 1 | 6 |
+| 90d | 2026-08-19 | 0 | 1 | 2 | 2 | 1 | 12 |
+| last180d | 2026-05-21 | 1 | 13 | 13 | 7 | 1 | 40 |
+| 360d | 2025-11-22 | 1 | 21 | 18 | 13 | 2 | 74 |
+| last720d | 2024-11-27 | 4 | 28 | 19 | 33 | 5 | 152 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **131** distros on [repology.org](https://repology.org/project/atop). **36** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+Reported by **132** distros on [repology.org](https://repology.org/project/atop). **37** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:52:38Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T10:13:10Z._
