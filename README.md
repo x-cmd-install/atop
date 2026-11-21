@@ -14,11 +14,11 @@ x install atop
 
 ## Code insight
 
-Total: **38,595** lines of code across **82** files in the top 5 languages.
+Total: **38,643** lines of code across **82** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 31,313 | 7,505 | 7,299 | 28 |
+| C | 31,361 | 7,511 | 7,306 | 28 |
 | CHeader | 7,038 | 1,086 | 1,325 | 49 |
 | Makefile | 179 | 21 | 26 | 1 |
 | Sh | 65 | 15 | 15 | 3 |
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.13.0` (2026-07-19)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-20
 - **Assets in release**: 1
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 32 · **Closed issues**: 168 · **Open issues**: 31 · **Commits**: 951
+- **Releases**: 6 · **Merged PRs**: 131 · **Open PRs**: 32 · **Closed issues**: 169 · **Open issues**: 30 · **Commits**: 952
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 1 | 0 | 2 | 2 |
-| last60d | 2026-09-21 | 0 | 0 | 2 | 1 | 2 | 6 |
-| 90d | 2026-08-22 | 0 | 1 | 2 | 2 | 2 | 12 |
-| last180d | 2026-05-24 | 1 | 13 | 13 | 6 | 2 | 40 |
-| 360d | 2025-11-25 | 1 | 21 | 18 | 13 | 3 | 74 |
-| last720d | 2024-11-30 | 4 | 28 | 19 | 33 | 6 | 152 |
+| 30d | 2026-10-22 | 0 | 0 | 1 | 1 | 1 | 3 |
+| last60d | 2026-09-22 | 0 | 0 | 2 | 2 | 1 | 7 |
+| 90d | 2026-08-23 | 0 | 1 | 2 | 3 | 1 | 13 |
+| last180d | 2026-05-25 | 1 | 13 | 13 | 7 | 1 | 41 |
+| 360d | 2025-11-26 | 1 | 21 | 18 | 14 | 2 | 75 |
+| last720d | 2024-12-01 | 4 | 28 | 19 | 34 | 5 | 153 |
 
 ## Release assets
 
@@ -72,7 +72,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **130** distros on [repology.org](https://repology.org/project/atop). **37** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
+Reported by **129** distros on [repology.org](https://repology.org/project/atop). **37** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -98,4 +98,4 @@ Install metadata for atop lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:14:59Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:27:44Z._
