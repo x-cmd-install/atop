@@ -47,7 +47,7 @@ x install atop
 
 ## 流行度
 
-- **Star**: 1,089 · **Fork**: 132 · **开放 issue**: 199 · **贡献者**: 35
+- **Star**: 1,090 · **Fork**: 132 · **开放 issue**: 199 · **贡献者**: 35
 
 ## 累计统计
 
@@ -57,37 +57,18 @@ x install atop
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 1 | 1 | 3 |
-| last60d | 2026-09-25 | 0 | 0 | 2 | 2 | 1 | 6 |
-| 90d | 2026-08-26 | 0 | 1 | 2 | 2 | 1 | 13 |
-| last180d | 2026-05-28 | 1 | 13 | 12 | 7 | 1 | 34 |
-| 360d | 2025-11-29 | 1 | 21 | 18 | 14 | 2 | 75 |
-| last720d | 2024-12-04 | 4 | 28 | 19 | 34 | 5 | 153 |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 1 | 1 | 3 |
+| last60d | 2026-09-26 | 0 | 0 | 2 | 2 | 1 | 6 |
+| 90d | 2026-08-27 | 0 | 1 | 2 | 2 | 1 | 13 |
+| last180d | 2026-05-29 | 1 | 13 | 12 | 7 | 1 | 34 |
+| 360d | 2025-11-30 | 1 | 21 | 18 | 14 | 2 | 75 |
+| last720d | 2024-12-05 | 4 | 28 | 19 | 34 | 5 | 153 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [atop-2.13.0.tar.gz](https://github.com/Atoptool/atop/releases/download/v2.13.0/atop-2.13.0.tar.gz) | 346.3 KiB | `native/unknown` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/atop) 上共有 **129** 个发行版报告此项目。**37** 个 ✅ 已是最新上游版本，**81** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `2.13.0` | ✅ latest |
-| Debian 14 | `2.13.0` | ✅ latest |
-| Debian 13 | `2.11.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.12.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.10.0` | ⚠️ outdated |
-| Arch | `2.13.0` | ✅ latest |
-| Homebrew | `2.13.0` | ✅ latest |
-| Fedora rawhide | `2.13.0` | ✅ latest |
-| Nix unstable | `2.13.0` | ✅ latest |
-| Void | `2.13.0` | ✅ latest |
-| Alpine edge | `2.12.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `2.13.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -98,4 +79,4 @@ atop 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T10:49:40Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T08:51:53Z._
